@@ -1,0 +1,13 @@
+name: CI
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: 23f2000822@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
